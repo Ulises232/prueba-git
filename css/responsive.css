@@ -1,0 +1,228 @@
+@media screen and (max-width: 1268px){
+  .opcionMenuPrincipal{
+    font-size: 0.90rem;
+  }
+}
+@media screen and (max-width: 1140px){
+  .opcionMenuPrincipal{
+    font-size: 0.85rem;
+  }
+}
+@media screen and (max-width: 1075px){
+  .opcionMenuPrincipal{
+    font-size: 0.75rem;
+  }
+
+  .paginaImagen{
+    width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  }
+
+ }
+
+ @media screen and (max-width: 950px){
+  .opcionMenuPrincipal{
+    font-size: 0.70rem;
+  }
+
+  .paginaImagen{
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  }
+
+ }
+ @media screen and (max-width: 425px){
+  .paginaImagen{
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }  
+ }
+
+ @media screen and (max-width: 884px){
+  .opcionMenuPrincipal{
+    font-size: 0.60rem;
+  }
+ }
+ 
+ @media screen and (max-width: 759px){
+  .opcionMenuPrincipal{
+    font-size: 0.55rem;
+  }
+ }
+
+ @media screen and (max-width: 695px){
+  .opcionMenuPrincipal{
+    font-size: 0.45rem;
+  }
+ }
+
+
+
+
+
+ @media screen and (max-width: 1080px){
+  .quienesSomos h1{
+    font-size: 3rem;
+   
+  }
+
+  .quienesSomos #parrafoSomos {
+    font-size: 18px;
+  }
+
+  .quienesSomos #parrafoSegundo {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 830px){
+  .quienesSomos h1{
+    font-size: 2.5rem;
+    
+  }
+
+
+}
+
+@media screen and (max-width: 690px){
+  .quienesSomos h1{
+    font-size: 2rem;
+   
+  }
+  .aviso{
+    padding: 30px 50px;
+  }
+
+}
+
+@media screen and (max-width: 655px){
+  .quienesSomos h1{
+    font-size: 2rem;
+    margin-left: 20%;
+  }
+
+  .quienesSomos #parrafoSomos {
+    font-size: 14px;
+  }
+
+  .quienesSomos #parrafoSegundo {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 550px){
+  #textoSomos{
+    margin-left: 10%;
+  }
+  .quienesSomos #parrafoSomos{
+    width: 50%;
+    font-size: 12px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 415px){
+  .quienesSomos h1{
+    font-size: 1.5rem;
+    margin-left: 10%;
+  }
+  #imagenQuien{
+    height: 220px;
+  }
+  #logoQuienes{
+    width: 40%;
+    
+  }
+
+  .aviso{
+    padding: 10px 20px;
+  }
+
+}
+
+@media screen and (max-width: 384px){
+  .quienesSomos h1{
+    font-size: 1.5rem;
+    margin-left: 10%;
+  }
+
+}
+
+@media screen and (max-width: 507px){
+  .opcionMenuPrincipal{
+    display: none;
+    
+  }
+  #despegableMenu{
+    display: block;
+    position: absolute;
+    margin-left: 100%;
+    transition: 2s;
+  }
+  #menuPrincipal label{
+    display: block;
+  }
+ #imagenLogo{
+   
+   width: 25%;
+ }
+  
+  #btonMenu:checked ~ #despegableMenu{
+    margin-left: 80%;
+  }
+  
+}
+
+@media (min-width: 886px){
+  .contacto{
+    padding: 0 4rem;
+  }
+  .contactoConte{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contactoConte > *{
+    padding: 2em;
+  }
+  .contactoInfo h4,.contactoInfo ul, .contactoInfo p{
+    text-align: left;
+    padding: 1em;
+
+  }
+}
+@media (max-width: 343px){
+  .logo{
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .contenedorImagenes{
+    width: 95%;
+  }
+}
+@media screen and (max-width:700px){
+  .contenedorImagenes{
+    width: 90%;
+  }
+  .contenedorImagenes .imagenGal{
+    width: 48%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .galeria h1{
+    font-size: 22px;
+  }
+  .contenedorImagenes{
+    width: 98%;
+  }
+  .contenedorImagenes .imagenGal{
+    width: 80%;
+  }
+}
+
